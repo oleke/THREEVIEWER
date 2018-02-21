@@ -15,5 +15,9 @@
     "Tissue"
   ],
   "author": "Ogunleke Abiodun",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^3.11.0",
+    "webpack-dev-server": "^2.11.1"
+  }
 }
