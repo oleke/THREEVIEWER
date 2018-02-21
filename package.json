@@ -1,0 +1,19 @@
+{
+  "name": "threeview",
+  "version": "1.0.0",
+  "description": "A node app based on the threeJS library for 3D IR imaging visualization",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "3D",
+    "Infrared",
+    "Imaging",
+    "Histology",
+    "Brain",
+    "Tissue"
+  ],
+  "author": "Ogunleke Abiodun",
+  "license": "ISC"
+}
