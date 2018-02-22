@@ -6,12 +6,14 @@ let config = {
   entry: './src/index.js',
   output: {
     path: path.resolve(__dirname, './'),
-    filename: './js/threeview.js'
+    filename: './js/threeview.js',
+    library: 'threeview',
+    libraryTarget: 'var'
   },
   //plugins: [new HtmlWebpackPlugin()],
   module: {
     rules: [{
-      test: /\.js$/, // files ending with .js
+      test: /\.(js|jsx)$/, // files ending with .js
       exclude: /node_modules/, // exclude the node_modules directory
       loader: "babel-loader" // use this (babel-core) loader
     }]

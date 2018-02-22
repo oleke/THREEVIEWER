@@ -5,6 +5,16 @@
     <title>3D Viewer</title>
   </head>
   <body>
-  <script type="text/javascript" src="./js/threeview.js"></script></body>
-  <script>loadSomething()</script>
+  <script type="text/javascript" src="./js/threeview.js"></script>
+    <div id="sca">
+    </div>
+    <div id="sc">
+  </div>
+  <script>
+    threeview.test('sca');
+    var mylib = new threeview.THREEVIEWER;
+    mylib.createScene('sc');
+    //console.log(new mylib.THREEVIEWER);
+  </script>
+  </body>
 </html>
