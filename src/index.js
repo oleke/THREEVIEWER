@@ -1,1 +1,5 @@
-document.write("Yo! This is Hot Serve...");
+document.write("Yo!");
+
+function loadSomething(){
+  alert("Yes!");
+};

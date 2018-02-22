@@ -8,7 +8,7 @@ let config = {
     path: path.resolve(__dirname, './'),
     filename: './js/threeview.js'
   },
-  plugins: [new HtmlWebpackPlugin()],
+  //plugins: [new HtmlWebpackPlugin()],
   module: {
     rules: [{
       test: /\.js$/, // files ending with .js
